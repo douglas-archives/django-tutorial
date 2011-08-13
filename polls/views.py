@@ -23,9 +23,13 @@ def vote(request, poll_id):
 			'error_message': "didn't select a choice.",
 		}, context_instance = RequestContext(request))
 	else:
-		selected_choice += 1
+		selected_choice.votes += 1
 		selected_choice.save()
 		# Always return an HttpResponseRedirect after successfully dealing
         # with POST data. This prevents data from being posted twice if a
         # user hits the Back button.
-        return HttpResponseRedirect(reverse('polls.view.results', args=(p.id,)))
+        return HttpResponseRedirect(reverse('polls.views.results', args=(p.id,)))
+
+def results(request, poll_id):
+	p = get_object_or_404(Poll, pk=poll_id)
+	return render_to_response('polls/result.html', {'poll':p})
