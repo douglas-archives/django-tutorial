@@ -19,4 +19,4 @@ External links
 
 `If you new in Python development you may consider have a look in Python Tutorial <http://docs.python.org/tutorial/>`_
 
-`Oficial Django website <https://www.djangoproject.com/>`_
+`Official Django website <https://www.djangoproject.com/>`_
