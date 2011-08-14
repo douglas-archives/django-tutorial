@@ -13,3 +13,10 @@ what i learned?
 * My code has never been so beautiful :) // `The zen of Python <http://www.python.org/dev/peps/pep-0020/>`_
 * Now more technical.. It's very compreensive and useful tutorial, which deals with Model, Views, Templates, Django Admin and another tips and features realy useful to introduce you to the Django
 * I just like so much, try for yourself and tell me about it =D
+
+External links
+==============
+
+`If you new in Python development you may consider have a look in Python Tutorial <http://docs.python.org/tutorial/>`_
+
+`Oficial Django website <https://www.djangoproject.com/>`_
